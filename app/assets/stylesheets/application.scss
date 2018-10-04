@@ -1,0 +1,319 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+ @import "bootstrap";
+
+ @font-face {
+  font-family: "SF Display";
+  font-weight: 900;
+  src: font-url('SF-Pro-Display-Black.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 700;
+  src: font-url('SF-Pro-Display-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 800;
+  src: font-url('SF-Pro-Display-Heavy.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 200;
+  src: font-url('SF-Pro-Display-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 500;
+  src: font-url('SF-Pro-Display-Medium.otf') format("opentype");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: font-url('SF-Pro-Display-Regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: font-url('SF-Pro-Display-Semibold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 300;
+  src: font-url('SF-Pro-Display-Thin.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 100;
+  src: font-url('SF-Pro-Display-Ultralight.otf') format("opentype");
+}
+
+/*---------------------------------------------------------------------------*
+ * SF UI Text
+ *---------------------------------------------------------------------------*/
+
+/** Bold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  src: font-url('SF-Pro-Text-Bold.otf') format("opentype");
+}
+
+/** Bold Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 700;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-BoldItalic.otf') format("opentype");
+}
+
+/** Heavy */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 800;
+  src: font-url('SF-Pro-Text-Heavy.otf') format("opentype");
+}
+
+/** Heavy Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 800;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-HeavyItalic.otf') format("opentype");
+}
+
+/** Light */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  src: font-url('SF-Pro-Text-Light.otf') format("opentype");
+}
+
+/** Light Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 200;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-HeavyItalic.otf') format("opentype");
+}
+
+/** Medium */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  src: font-url('SF-Pro-Text-Medium.otf') format("opentype");
+}
+
+/** Medium Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 500;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-MediumItalic.otf') format("opentype");
+}
+
+/** Regular */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  src: font-url('SF-Pro-Text-Regular.otf') format("opentype");
+}
+
+/** Regular Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-RegularItalic.otf') format("opentype");
+}
+
+/** Semibold */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  src: font-url('SF-Pro-Text-Semibold.otf') format("opentype");
+}
+
+/** Semibold Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 600;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-SemiboldItalic.otf') format("opentype");
+}
+
+/** Ultrathin */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 100;
+  src: font-url('SF-Pro-Text-Ultrathin.otf') format("opentype");
+}
+
+/** Ultrathin Italic */
+@font-face {
+  font-family: "SF Text";
+  font-weight: 100;
+  font-style: italic;
+  src: font-url('SF-Pro-Text-UltrathinItalic.otf') format("opentype");
+}
+
+
+   // FontAwesome
+   @font-face{
+     font-family:"Font Awesome 5 Free";
+     font-style:normal;
+     font-weight:900;
+     src:font-url('fa-solid-900.eot');
+     src:font-url('fa-solid-900.eot?#iefix') format("embedded-opentype"),font-url('fa-solid-900.woff2') format("woff2"),font-url('fa-solid-900.woff') format("woff"),font-url('fa-solid-900.ttf') format("truetype"),font-url('fa-solid-900.svg#fontawesome') format("svg")}.fa,.far,.fas{font-family:"Font Awesome 5 Free"}.fa,.fas{font-weight:900}
+
+ body {
+  background-image: linear-gradient(to left,#002868,#BF0A30);
+   font-family: 'SF Display';
+ }
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .device {
+    zoom: 0.7;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .device {
+    zoom: 0.7;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .device {
+    zoom: 0.7;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .device {
+    zoom: 0.7;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .device {
+    zoom: 0.7;
+  }
+}
+
+.device-iphone-x .device-content .phone-alert {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin: 7px;
+}
+
+.device-iphone-x .device-content .alert-content {
+  padding: 10px;
+  color: #424242;
+}
+
+.device-iphone-x .device-content .alert-content table {
+  display: table;
+}
+
+.device-iphone-x .device-content .alert-content tr {
+  display: table-row;
+  color: #6a737ae0;
+}
+
+.device-iphone-x .device-content .alert-content tbody {
+  display: table-row-group;
+}
+
+.device-iphone-x .device-content .alert-content td {
+  display: table-cell;
+}
+
+.device-iphone-x .device-content .alert-content td small {
+  font-size: 80%;
+  color: #6c757d!important;
+  font-weight: 400;
+}
+
+.device-iphone-x .device-content .alert-content h3 {
+  margin: 10px 0 0 0;
+}
+
+.device-iphone-x .device-content .alert-content p {
+  // margin: 10px 0 0 0;
+  margin: 0;
+}
+
+.device-iphone-x .device-content .alert-content .alert-type {
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.device-iphone-x .device-content {
+  color: white;
+  background-color: black;
+  background-image: url('iphone-bg.png');
+
+}
+
+.lock {
+  padding-top: 15%;
+  text-align: center;
+  font-size: 2.25em;
+}
+
+.time {
+  font-size: 5rem;
+}
+
+.time, .date {
+  text-align: center;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+.date {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+.bottom-content {
+  display: grid;
+  bottom: 50px;
+  position: absolute;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+
+.flashlight, .camera {
+  text-align: center;
+}

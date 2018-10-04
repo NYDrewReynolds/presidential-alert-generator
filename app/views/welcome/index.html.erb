@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">Presidential Alert Generator</a>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-lg-7 my-auto">
+        <div class="header-content mx-auto">
+          <h1 class="mb-5">Now you have the power to send any message through the Presidential Alert System!</h1>
+          <span class="btn btn-outline btn-xl">Click the Alert to Get Started</span>
+        </div>
+      </div>
+      <div class="col-lg-5 my-auto">
+        <!-- <div class="device-container" style="margin-top: 90px;"> -->
+        <div class="device-container">
+          <div class="device device-iphone-x">
+            <div class="device-frame">
+              <div class="device-content">
+                <div class="lock">
+                  <i class="fas fa-lock"></i>
+                </div>
+                <div class="time">
+                  <%= Time.current.strftime('%l:%M') %>
+                </div>
+                <div class="date">
+                  <%= Date.current.strftime('%A, %B %e') %>
+                </div>
+                <div class="phone-alert">
+                  <div class="alert-content">
+                    <table>
+                      <tr>
+                        <td width="5%">
+                          <i class="far fa-exclamation-triangle"></i>
+                        </td>
+                        <td width="90%"><small>EMERGENCY ALERTS</small></td>
+                        <td width="5%">now</td>
+                      </tr>
+                    </table>
+                    <span class='alert-type'>Presidential Alert</span>
+                    <p contenteditable="true">THIS IS A TEST of the National Wireless Emergency Alert System. No
+                      action is needed.<br><br>
+                      Click here to add your own!
+                    </p>
+                  </div>
+                </div>
+                <div class="bottom-content">
+                  <div class="flashlight">
+                    <div class="flashlight-icon-container">
+                      <span style="font-size: 48px; color: #696969a6;">
+                        <i class="far fa-lightbulb"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="camera">
+                    <span style="font-size: 48px; color: #696969a6;">
+                      <i class="far fa-camera"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="device-stripe"></div>
+            <div class="device-header"></div>
+            <div class="device-sensors"></div>
+            <div class="device-btns"></div>
+            <div class="device-power"></div>
+            <div class="device-home"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
