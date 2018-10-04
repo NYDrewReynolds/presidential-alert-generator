@@ -211,7 +211,10 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .device {
-    zoom: 1.5;
+    zoom: 1.2;
+  }
+  .device-container {
+    margin-left: 15%;
   }
 } 
 
